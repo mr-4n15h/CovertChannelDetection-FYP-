@@ -1,4 +1,4 @@
-# Covert Storage Channels Detection
+# Covert Storage Channels Detection (FYP)
 Covert channel detection using Python and ML
 
 <img src="https://user-images.githubusercontent.com/33122280/153201881-4568d298-451e-41df-b342-59f0b872084a.png" width="90%"></img> 
