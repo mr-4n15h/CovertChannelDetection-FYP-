@@ -4,7 +4,7 @@ Covert channel detection using Python and ML
 <img src="https://user-images.githubusercontent.com/33122280/153201881-4568d298-451e-41df-b342-59f0b872084a.png" width="90%"></img> 
 
 In the picture above, we see a covert storage channel in a TCP segment which is hiding data inside the sequence number field. 
-The sequence number field hides the data 'Hi :)' to communicate in secret. So what you maybe thinking? Two scenarios have been provided below:
+The sequence number field hides the data 'Hi :)' to communicate in secret. This message 'Hi :)' is only visible to us, but for computers it is not. This means we can hide data in all Internet protocols by changing its packet contents. So what you maybe thinking? Two scenarios have been provided below:
 
 >Scenario 1: An Insider Threat. 
 Suppose Edward is a system-administrator at a company and is dissatisfied about his pay deductions.
